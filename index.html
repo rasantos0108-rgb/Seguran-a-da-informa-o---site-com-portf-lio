@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Seu Nome</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+    <h1>Sobre Mim</h1>
+    <div class="conteudo-sobre">
+        <p>Eu sempre fui um jovem fascinado pela tecnologia que os computadores possibilitaram para a humanidade como um todo, então hoje eu uso esse fascínio para me profissionalizar em áreas que envolvam a segurança da informação.</p>
+        <p>Porém, meu foco atual é me organizar para estudar segurança cibernética, visando trabalhar em prol do bom uso da IA e sabendo identificar ameaças usando a mesma, se necessário.</p>
+        
+        <h3>Meus Hobbies</h3>
+        <div class="hobbies">
+            <figure>
+                <img src="imagens/games.jpg" alt="Controle de Video Game" width="200">
+                <figcaption>Fascínio pelo mundo digital</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/leitura.jpg" alt="Livro aberto com café ao lado" width="200">
+                <figcaption>Aprendizado e lazer</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+        
+<<section id="formacao">
+    <h2>Formação Educacional</h2>
+    <ul>
+        <li><strong>Graduação:</strong> TECNOLOGIA EM SEGURANÇA DA INFORMAÇÃO - Centro Universitário Internacional UNINTER (Em andamento).</li>
+        <li><strong>Foco de Estudo:</strong> Segurança Cibernética e Inteligência Artificial.</li>
+        <li><strong>Idiomas:</strong> Português (Nativo) | Inglês (B2).</li>
+    </ul>
+</section>
+        <section id="portfolio">
+    <h2>Meu Portfólio</h2>
+    <div class="projeto">
+        <h3>Projeto: Portfólio Acadêmico Web</h3>
+        <p>O site foi desenvolvido como um trabalho prático para a disciplina de Fundamentos da Programação Web. Apliquei o que aprendi nesse módulo, tais como: HTML5,CSS3 e JavaScript.</p>
+        <p><em>Tecnologias: HTML5, CSS3, JavaScript.</em></p>
+    </div>
+
+    <div class="projeto">
+        <h3>Sistema de Algoritmos (Python)</h3>
+        <p>Desenvolvido no PyCharm, este projeto consistiu na criação de algoritmos para resolver diversos cenários e exigências lógicas propostas em ambiente acadêmico.</p>
+        <p><strong>Destaque:</strong> Aplicação de estruturas de repetição, condicionais e manipulação de dados para atender requisitos complexos de automação.</p>
+        <p><em>Tecnologia: Python.</em></p>
+    </div>
+</section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
